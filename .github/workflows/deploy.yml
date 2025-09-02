@@ -7,7 +7,7 @@ on:
       - dev
 
 env:
-  MONGODB_DB_NAME: gha-demo
+  MONGODB_DB_NAME: sample_mflix
 
 jobs:
   test:
