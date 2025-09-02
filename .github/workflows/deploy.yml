@@ -9,7 +9,7 @@ env:
 jobs:
   test:
     env:
-      MONGODB_CLUSTER_ADDRESS: cluster0.tmkwl41.mongodb.net
+      MONGODB_CLUSTER_ADDRESS: cluster0.gbneyde.mongodb.net
       MONGODB_USERNAME: hussi_db_user
       MONGODB_PASSWORD: f1g3mfPQDqaHCSe5
       PORT: 8080
