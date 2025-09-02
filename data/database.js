@@ -23,4 +23,8 @@ export async function getDatabase() {
     return database;
   } catch (error) {
     console.log('Connection failed.', error);
-    await client.
+    await client.close();
+    console.log('Connection closed.');
+    throw error; // Throw error so calling code knows connection failed
+  }
+} // <- Make sure this closing brace is present
